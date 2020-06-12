@@ -1,0 +1,13 @@
+package com.lopamoko.smoke.order;
+
+public enum OrderStatus {
+    SELECTS_A_PRODUCT,
+    WAITING_FOR_MODERATOR_TO_PROCESS,
+    MODERATOR_PROCESSING,
+    MODERATOR_APPROVAL,
+    MODERATOR_REJECTED,
+    DELIVERY_AWAITING,
+    DELIVERY,
+    DELIVERED,
+    CANCELED
+}

@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://Lopamoko:od3FQGcT@ds259806.mlab.com:59806/heroku_hqw6jz6m?retryWrites=false
+encoder:
+  secret: mysecret
+  iteration: 33
+  keylength: 256
+jwt:
+  secret: ThisIsSecretForJWTHS512SignatureAlgorithmThatMUSTHave64ByteLength
+  expiration: 28800
